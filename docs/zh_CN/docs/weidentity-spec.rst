@@ -83,7 +83,6 @@ WeIdentity DID与WeIdentity Credential的关系
 
 
 .. image:: images/weidentity-er.png
-   :target: images/weidentity-er.png
    :alt: weidentity-er.png
 
 从图中可见，WeIdentity DID与WeIdentity Credential的关系并非单纯的一对多：从设计目标上看，WeIdentity DID用来描述实体（人或物），WeIdentity Credential用来描述实体的身份、属性和实体间关系。因此，一个WeIdentity DID可以持有多个WeIdentity Credential；而一个WeIdentity Credential则会包含至少一个所描述的WeIdentity DID，可能会有多个。最后，每个WeIdentity DID都有一个WeIdentity Document，用来存储此DID的认证方式（如公钥、私钥套件）等信息，与WeIdentity Credential无关。
@@ -93,7 +92,6 @@ WeIdentity DID与WeIdentity Credential的关系
 
 
 .. image:: images/overall-flow@2x.png
-   :target: images/overall-flow@2x.png
    :alt: overall-flow.png
 
 一般来说，WeIdentity解决方案的基本流程如下：
